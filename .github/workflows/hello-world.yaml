@@ -9,6 +9,7 @@ on:
       - 'main'
       - 'master'
       - 'release/**'
+      - '!dev/**'
 jobs:
   say-hello:
     runs-on: ubuntu-latest
